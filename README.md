@@ -21,7 +21,7 @@ This project delivers insights and recommendations in the following areas:
 
 ## 🧩 Entity Relationship Diagram
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/E-commerce-Performance-Analysis/blob/06a416323df88e82abd1f532c1393b84b71106ab/images/ecommerce_ERD.webp" width="800"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/d01765db4107fd9d886f67e5d66264e77e80e253/images/Data%20model%20with%20subscriptions%20ER%20diagram.png" width="800"/>
 </p>
 
 ---
