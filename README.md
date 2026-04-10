@@ -1,6 +1,6 @@
-# Steamify — Subscription Revenue & Retention Analysis (2023–2024)
+# 📊 Steamify — Subscription Revenue & Retention Analysis (2023–2024)
 
-## Overview
+## 🔍 Overview
 
 Steamify is a subscription-based digital streaming platform offering multiple plans: Basic, Premium, Duo, Student, and Annual. This analysis examines subscription performance from 2023 to 2024 across 28K → 19K paid users to understand how retention, pricing, trial conversion, and plan migration evolved over time.
 
@@ -16,17 +16,12 @@ This project delivers insights and recommendations in the following areas:
 
 > **NOTE:** The analysis includes dynamic cohort retention (tracking new users only), plan migration matrices, and monthly trend data that can be utilized in Power BI.
 
----
-
-
 ## 🧩 Entity Relationship Diagram
 <p align="center">
   <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/d01765db4107fd9d886f67e5d66264e77e80e253/images/Data%20model%20with%20subscriptions%20ER%20diagram.png" width="800"/>
 </p>
 
----
-
-## Executive Summary
+## 📌 Executive Summary
 
 <p align="center">
   <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-mrr.png" width="800"/>
@@ -43,11 +38,9 @@ Steamify shifted from growth to contraction between 2023 and 2024:
 
 > **NOTE:** MoM MRR growth turned consistently negative starting January 2024, confirming the decline is structural, not seasonal. All cohort retention metrics below track new users from their signup month.
 
----
+## 📈 Insights Deep Dive
 
-## Insights Deep Dive
-
-### Subscription Growth & Revenue
+### 💰 Subscription Growth & Revenue
 
 Steamify processed over 28K paid users at peak (Dec 2023), declining to 19K paid users (Dec 2024), generating an average ARPU of $21 and NRR of 99.22% by end of period.
 
@@ -72,9 +65,7 @@ Key observations:
 - NRR crossed below 100% in March 2024 and never recovered, staying at 98–99% through year end.
 - October 2024 NRR hit 98.45% — the lowest point in the dataset, confirming structural deterioration.
 
----
-
-### Retention & Churn Behavior
+### 🔄 Retention & Churn Behavior
 
 The following retention metrics track cohorts of new users from their signup month. Survival curve and retention rates reflect only new users, not existing subscribers.
 
@@ -96,9 +87,7 @@ The following retention metrics track cohorts of new users from their signup mon
 
 Key takeaway: Onboarding improvements for new users succeeded (early churn 26% → 6%), but new users who survive past month 1 still leave at high rates before month 6. The mid-lifecycle engagement gap — not acquisition — is the primary driver of contraction. Churn rate crept from a stable 4–5% band in 2023 to a persistent 5–6% band by late 2024, confirming the problem is worsening, not stabilizing. A potential pullback in December 2024 (back to 5%) warrants monitoring in Q1 2025.
 
----
-
-### Plan Performance & Economics
+### 📊 Plan Performance & Economics
 
 **Revenue, ARPU & LTV by plan — 2023 vs 2024:**
 
@@ -115,9 +104,7 @@ Key observations:
 - Lowest LTV plan: Student at $448 in 2024 (up from $384 in 2023), with 5.67% churn, still suggesting poor unit economics.
 - ARPU grew YoY across all plans — Basic $57 → $69, Premium $68 → $78, Duo $113 → $136 — confirming the pricing model improved but could not offset user loss.
 
----
-
-### Trial Conversion & New User Economics
+### 🧪 Trial Conversion & New User Economics
 
 **Trial funnel metrics (2023 vs 2024):**
 
@@ -145,18 +132,13 @@ Key observations:
 - New MRR (~$9K/month) is 33× smaller than annualized revenue lost ($298K) — the growth engine cannot compensate for churn.
 - 45% of new users choose Basic — the lowest-LTV plan among non-student tiers. Only 20% choose high-retention plans (Annual + Duo).
 
----
-
-### Plan Migration & Expansion Behavior
+### 🔁 Plan Migration & Expansion Behavior
 
 **Upgrade vs. downgrade trend (2023):**
-
 
 <p align="center">
   <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/a3a00a0727f931e8acc02c96f9ca84759e755c19/images/Screenshot%202026-04-10%20194218.png" width="600"/>
 </p>
-
-
 
 **Plan migration matrix highlights:**
 <p align="center">
@@ -176,9 +158,7 @@ Key observations:
 - Plan migration is net negative — more users move down than up, eroding average revenue per user.
 - By 2024, downgrade rates began converging with upgrade rates, further compressing expansion revenue.
 
----
-
-### Renewal Timing Distribution
+### ⏱️ Renewal Timing Distribution
 
 <p align="center">
   <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/user%20renewal.png" width="500"/>
@@ -191,11 +171,9 @@ Key observations:
 - 5.8K users take 31–60 days to renew — this segment represents the highest churn risk and should be targeted for re-engagement.
 - Downgrades are rising among delayed renewers, suggesting users are reconsidering value during the gap between billing and renewal decision.
 
----
+## 💡 Recommendations
 
-## Recommendations
-
-### Subscription Growth & Revenue
+### 📈 Subscription Growth & Revenue
 
 * **Maximize retention of high-LTV plans (Annual & Duo):** Since Annual (1.08% churn, $2,357 LTV) and Duo (4.59% churn, $2,663 LTV) show superior economics, prioritize these plans in promotions. Ensure sufficient onboarding support for these tiers, highlight their value proposition, and consider seasonal discounts (between September and December) or limited-time offers to convert trial users directly into Annual plans.
 
@@ -203,9 +181,7 @@ Key observations:
 
 * **Improve retention of new users & fix mid-lifecycle gap:** 67.75% of churn from new user cohorts happens within first 2 renewals. Launch post-trial engagement campaigns at weeks 4, 8, and 12 for new users. Identify usage drop-off signals (e.g., <3 logins/week) and trigger re-engagement flows. Improving M6 retention for new users from 51% to 60% would add ~$500K in annualized revenue.
 
----
-
-### Trial Conversion & New User Acquisition
+### 🧪 Trial Conversion & New User Acquisition
 
 * **Stabilize and improve trial-to-paid conversion:** Trial conversion has been volatile (6.4%–9.3%) with no sustained upward trend. Implement in-trial onboarding emails, feature highlights at day 3 and day 7, and personalized offers before trial expiration. The goal is a consistent floor above 8.5%, not occasional peaks.
 
@@ -213,9 +189,7 @@ Key observations:
 
 * **Increase new paid user volume above churn rate:** New paid users flat at ~545/month, while monthly churn MRR is $24K–$27K. Target 700+ new paid users/month through trial optimization, referral programs, and retargeting of abandoned trials.
 
----
-
-### Plan Migration & Expansion
+### 🔁 Plan Migration & Expansion
 
 * **Rebuild upgrade engine:** Upgrade rates fell from 13.5% → 3.9% — a 71% collapse. Identify upgrade triggers (usage thresholds like 5 devices, 3 simultaneous streams). Add in-app upgrade prompts at natural moments (e.g., "You've reached your device limit — upgrade to Premium for unlimited access"). Test limited-time upgrade discounts.
 
@@ -223,9 +197,7 @@ Key observations:
 
 * **Close the 33× revenue gap:** New MRR = $9K/month vs. revenue lost = $298K/year ($25K/month). Focus on reducing churn by 1–2 points (worth ~$50K–$100K annually) before increasing acquisition spend. Set NRR alert at <100% for 2 consecutive months, triggering retention review.
 
----
-
-### Retention & Engagement
+### 🎯 Retention & Engagement
 
 * **Fix M3–M6 retention gap for new user cohorts:** M6 retention for new users dropped from 63% → 51%. Launch post-trial engagement campaigns at weeks 4, 8, and 12 for new users. Identify usage drop-off signals (e.g., <3 logins/week, no playlist creation) and trigger re-engagement flows with personalized content recommendations.
 
@@ -233,9 +205,7 @@ Key observations:
 
 * **Leverage early churn improvement as a template:** Early churn among new users improved from 26% → 6% — document what changed (onboarding emails, feature highlights, trial support) and apply the same playbook to the M3–M6 lifecycle stage.
 
----
-
-### Plan & Pricing Strategy
+### 💲 Plan & Pricing Strategy
 
 * **Increase Annual plan adoption:** Annual has 1.08% churn and $2,357 LTV but only 17% of new users. Test annual-only exclusive features (e.g., offline downloads, early access to new content). Offer 20% discount for annual commitment vs. monthly.
 
@@ -243,9 +213,7 @@ Key observations:
 
 * **Test Premium Lite tier:** Downgrades from Premium to Basic suggest a missing mid-tier. Introduce "Premium Lite" at a mid-range price point with limited features (e.g., 2 devices, no 4K) to capture downgrading users before they drop to Basic.
 
----
-
-### Data Quality & Monitoring
+### 📊 Data Quality & Monitoring
 
 * **Monitor NRR monthly with action triggers:** If NRR <100% for 2 consecutive months, trigger retention review and escalate to leadership. If NRR <98% for any month, launch immediate win-back campaigns.
 
