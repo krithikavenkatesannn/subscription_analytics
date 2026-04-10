@@ -29,7 +29,7 @@ This project delivers insights and recommendations in the following areas:
 ## Executive Summary
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-mrr.png" width="1000"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-mrr.png" width="800"/>
 </p>
 Steamify shifted from growth to contraction between 2023 and 2024:
 
@@ -79,8 +79,9 @@ Key observations:
 The following retention metrics track cohorts of new users from their signup month. Survival curve and retention rates reflect only new users, not existing subscribers.
 
 **Lifecycle retention decline for new users (2023 vs 2024 cohorts):**
+
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/a3a00a0727f931e8acc02c96f9ca84759e755c19/images/z-retention.png" width="600"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/a3a00a0727f931e8acc02c96f9ca84759e755c19/images/z-retention.png" width="500"/>
 </p>
 
 **Churn concentration among new users:**
@@ -90,7 +91,7 @@ The following retention metrics track cohorts of new users from their signup mon
 
 **Monthly churn by plan (2024, all users):**
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2064747831a7d2e86acc7da9cf99283c3a3c3400/images/z-churn.png" width="600"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2064747831a7d2e86acc7da9cf99283c3a3c3400/images/z-churn.png" width="500"/>
 </p>
 
 Key takeaway: Onboarding improvements for new users succeeded (early churn 26% → 6%), but new users who survive past month 1 still leave at high rates before month 6. The mid-lifecycle engagement gap — not acquisition — is the primary driver of contraction. Churn rate crept from a stable 4–5% band in 2023 to a persistent 5–6% band by late 2024, confirming the problem is worsening, not stabilizing. A potential pullback in December 2024 (back to 5%) warrants monitoring in Q1 2025.
@@ -102,7 +103,7 @@ Key takeaway: Onboarding improvements for new users succeeded (early churn 26% �
 **Revenue, ARPU & LTV by plan — 2023 vs 2024:**
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-plan%20performance.png" width="900"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-plan%20performance.png" width="800"/>
 </p>
 Key observations:
 
@@ -129,9 +130,13 @@ Key observations:
 | Revenue lost (monthly avg) | ~$18K | ~$25K | +39% |
 
 **New user distribution by plan (2024):**
-<p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-newpaid.png" width="600"/>
-</p>
+ Plan | % of New Users |
+|---|---|
+| Basic | 45% |
+| Premium | 29% |
+| Annual | 17% |
+| Student | 6% |
+| Duo | 3% |
 Key observations:
 
 - Trial acquisition remains stable (~1.5K users/month), indicating sustained interest in Steamify.
