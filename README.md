@@ -18,11 +18,11 @@ This project delivers insights and recommendations in the following areas:
 
 ---
 
-## Data Processing
 
-- Original dataset in Excel can be found [here](#)
-- Steps taken to clean inconsistencies and non-sensical values are detailed [here](#)
-- Data analysis and DAX measures in Power BI can be found [here](#)
+## 🧩 Entity Relationship Diagram
+<p align="center">
+  <img src="https://github.com/krithikavenkatesannn/E-commerce-Performance-Analysis/blob/06a416323df88e82abd1f532c1393b84b71106ab/images/ecommerce_ERD.webp" width="800"/>
+</p>
 
 ---
 
