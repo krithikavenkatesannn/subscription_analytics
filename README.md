@@ -140,7 +140,7 @@ Key observations:
 **Upgrade vs. downgrade trend (2023):**
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/a3a00a0727f931e8acc02c96f9ca84759e755c19/images/Screenshot%202026-04-10%20194218.png" width="800"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/11137b43f941d39c243cc44347bda9653111efd2/images/ChatGPT%20Image%20Apr%2011%2C%202026%2C%2010_32_45%20PM.png" width="800"/>
 </p>
 
 **Plan migration matrix highlights:**
