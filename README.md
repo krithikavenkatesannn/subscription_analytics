@@ -22,10 +22,12 @@ This project delivers insights and recommendations in the following areas:
 </p>
 
 ## 📌 Executive Summary
-
+<br>
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/9bfd956dc3989e34fe132ebb940e7216c1cb539a/images/Monthly%20recurring%20revenue%20analysis.png" width="800" height="400"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/626a287e07b046625a4d29f0fad02cf697440f0b/images/Revenue%20trends%20and%20percentage%20changes.png" width="900" height="400"/>
 </p>
+<br>
+
 Steamify shifted from growth to contraction between 2023 and 2024:
 
 - **Paid users declined from 28K to 19K (-32%)** despite ARPU rising steadily and without interruption from $18 (Jan 2023) to $21 (Dec 2024) — a smooth, unbroken climb with no dips or reversals, indicating the pricing model itself was not the problem.
@@ -73,7 +75,7 @@ The following retention metrics track cohorts of new users from their signup mon
 **Lifecycle retention decline for new users (2023 vs 2024 cohorts):**
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/a3a00a0727f931e8acc02c96f9ca84759e755c19/images/z-retention.png" width="500"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/1d8be90e0ae78bcebf33802a4502f4c4f950c3cd/images/ChatGPT%20Image%20Apr%2011%2C%202026%2C%2007_24_23%20PM.png" width="700"/>
 </p>
 
 **Churn concentration among new users:**
@@ -83,7 +85,7 @@ The following retention metrics track cohorts of new users from their signup mon
 
 **Monthly churn by plan (2024, all users):**
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/221731a117911daa370fcec9e3ded4cfaf29988c/images/z-churn.png" width="600"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/0571233c45d65dcfc350ee536a8c762f5f182ab8/images/ChatGPT%20Image%20Apr%2011%2C%202026%2C%2009_50_43%20PM.png" width="600"/>
 </p>
 
 Key takeaway: Onboarding improvements for new users succeeded (early churn 26% → 6%), but new users who survive past month 1 still leave at high rates before month 6. The mid-lifecycle engagement gap — not acquisition — is the primary driver of contraction. Churn rate crept from a stable 4–5% band in 2023 to a persistent 5–6% band by late 2024, confirming the problem is worsening, not stabilizing. A potential pullback in December 2024 (back to 5%) warrants monitoring in Q1 2025.
@@ -93,7 +95,7 @@ Key takeaway: Onboarding improvements for new users succeeded (early churn 26% �
 **Revenue, ARPU & LTV by plan — 2023 vs 2024:**
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/221731a117911daa370fcec9e3ded4cfaf29988c/images/z-plan.png" width="800"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/0571233c45d65dcfc350ee536a8c762f5f182ab8/images/Plan%20performance%20data%20for%202023-2024.png" width="800"/>
 </p>
 Key observations:
 
@@ -143,7 +145,7 @@ Key observations:
 
 **Plan migration matrix highlights:**
 <p align="center">
-  <img src="images/Screenshot 2026-04-11 145233.png" width="900"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/e6a20dc92748b1730a5501e536c7f8a6139f6064/images/Plan%20migration%20statistics%20for%202023%20and%202024.png" width="900"/>
 </p>
 
 - Premium → Basic: 4.0% of Premium users downgrade.
