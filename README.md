@@ -24,7 +24,7 @@ This project delivers insights and recommendations in the following areas:
 ## 📌 Executive Summary
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-mrr.png" width="800"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/9bfd956dc3989e34fe132ebb940e7216c1cb539a/images/Monthly%20recurring%20revenue%20analysis.png" width="800" height="400"/>
 </p>
 Steamify shifted from growth to contraction between 2023 and 2024:
 
@@ -37,6 +37,7 @@ Steamify shifted from growth to contraction between 2023 and 2024:
 - **Trial conversion declined from 7.2% (2023) to 6.0% (2024)** — dipping as low as 6.4% (Aug 2023) and 6.9% (Apr 2024) with no sustained recovery. The funnel is weakening, not stabilising.
 
 > **NOTE:** MoM MRR growth turned consistently negative starting January 2024, confirming the decline is structural, not seasonal. All cohort retention metrics below track new users from their signup month.
+
 
 ## 📈 Insights Deep Dive
 
@@ -82,7 +83,7 @@ The following retention metrics track cohorts of new users from their signup mon
 
 **Monthly churn by plan (2024, all users):**
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2064747831a7d2e86acc7da9cf99283c3a3c3400/images/z-churn.png" width="500"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/221731a117911daa370fcec9e3ded4cfaf29988c/images/z-churn.png" width="600"/>
 </p>
 
 Key takeaway: Onboarding improvements for new users succeeded (early churn 26% → 6%), but new users who survive past month 1 still leave at high rates before month 6. The mid-lifecycle engagement gap — not acquisition — is the primary driver of contraction. Churn rate crept from a stable 4–5% band in 2023 to a persistent 5–6% band by late 2024, confirming the problem is worsening, not stabilizing. A potential pullback in December 2024 (back to 5%) warrants monitoring in Q1 2025.
@@ -92,7 +93,7 @@ Key takeaway: Onboarding improvements for new users succeeded (early churn 26% �
 **Revenue, ARPU & LTV by plan — 2023 vs 2024:**
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/z-plan%20performance.png" width="800"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/221731a117911daa370fcec9e3ded4cfaf29988c/images/z-plan.png" width="800"/>
 </p>
 Key observations:
 
@@ -137,12 +138,12 @@ Key observations:
 **Upgrade vs. downgrade trend (2023):**
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/a3a00a0727f931e8acc02c96f9ca84759e755c19/images/Screenshot%202026-04-10%20194218.png" width="600"/>
+  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/a3a00a0727f931e8acc02c96f9ca84759e755c19/images/Screenshot%202026-04-10%20194218.png" width="800"/>
 </p>
 
 **Plan migration matrix highlights:**
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/user%20renewal.png" width="500"/>
+  <img src="images/Screenshot 2026-04-11 145233.png" width="900"/>
 </p>
 
 - Premium → Basic: 4.0% of Premium users downgrade.
@@ -161,7 +162,7 @@ Key observations:
 ### ⏱️ Renewal Timing Distribution
 
 <p align="center">
-  <img src="https://github.com/krithikavenkatesannn/subscription_analytics/blob/2db14f180d1f763e6285cd6d02a6071fc9b0d95a/images/user%20renewal.png" width="500"/>
+  <img src="images/2023 vs 2024 renewal timing distribution (1).png" width="600"/>
 </p>
 
 Key observations:
