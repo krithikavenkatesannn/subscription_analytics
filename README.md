@@ -37,7 +37,7 @@ Steamify shifted from growth to contraction between 2023 and 2024:
 
 > **NOTE:** MoM MRR growth turned consistently negative starting January 2024, confirming the decline is structural, not seasonal. All cohort retention metrics below track new users from their signup month.
 
-**Interactive Dashboard:** [View in Power BI](https://app.fabric.microsoft.com/view?r=eyJrIjoiNjdjNmU1MzItNmVjOS00ZGZjLWE4YWItZmU4ZWM2NjUyZDQyIiwidCI6IjBiNmM1ZjE0LTFmOGEtNDYxNy04YzI4LTJiZTc5M2FmYzBjMCJ9)
+**Interactive Dashboard:** [View in Power BI](https://app.fabric.microsoft.com/view?r=eyJrIjoiNjdjNmU1MzItNmVjOS00ZGZjLWE4YWItZmU4ZWM2NjUyZDQyIiwidCI6IjBiNmM1ZjE0LTFmOGEtNDYxNy04YzI4LTJiZTc5M2FmYzBjMCJ9&pageName=7809e07cc0acc66639b8)
 
 ## 🔍 Insights Deep Dive
 
